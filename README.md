@@ -1,8 +1,8 @@
-# 🤖 My AI/ML Engineering Journey
+# 🤖 My AI Engineering Journey
 
-Hi, I am **Fida Hussain** — a self-taught learner from Pakistan, currently on a mission to learn AI/ML Engineering from scratch.
+Hi, I am **Fida Hussain** — a self-taught learner from Pakistan, currently on a mission to learn AI Engineering from scratch.
 
-I do not have all the answers yet. I do not know exactly what I want to build or where I will end up. But I know one thing — I want to understand this field deeply, and I am putting in the work every single day to get there.
+I do not have all the answers yet. But I know one thing — I want to become an **AI Engineer**, and I am putting in the work every single day to get there.
 
 This repository is my public journal. Every folder, every file, and every commit is a step forward.
 
@@ -63,4 +63,4 @@ If you are on a similar journey — let's connect. 🤝
 
 ---
 
-*Started: June 10 2025 | Location: Pakistan 🇵🇰*
+*Started: June 10, 2025 | Location: Pakistan 🇵🇰*
