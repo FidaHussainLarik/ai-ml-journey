@@ -1,7 +1,5 @@
 # 🤖 My AI/ML Engineering Journey
 
-> *"I don't know exactly where this road leads — but I am walking it anyway, one project at a time."*
-
 Hi, I am **Fida Hussain** — a self-taught learner from Pakistan, currently on a mission to learn AI/ML Engineering from scratch.
 
 I do not have all the answers yet. I do not know exactly what I want to build or where I will end up. But I know one thing — I want to understand this field deeply, and I am putting in the work every single day to get there.
