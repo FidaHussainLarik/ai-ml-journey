@@ -1,3 +1,11 @@
-# This is a tiny project I have created by following brocode's tutorial. 
-## This trigered me to thing beyond the abstract concepts and apply them to real wolrd. This lead to 'Natural Tranquilizer for the Nervous System (4-7-8 Breathing Simulator)' my own creation of idea and logic.
-###Both are simple but they highly inspired me to learn python like a passion to follow.
+# First and the simplest project.
+I created this by following Bro Code's Python tutorial on YouTube.
+His countdown project triggered me to think beyond abstract concepts
+and apply them to the real world.
+
+That led me to build my own project — 
+**Natural Tranquilizer for the Nervous System (4-7-8 Breathing Simulator)** 
+— my own idea and logic, built from scratch.
+
+Both projects are simple, but they inspired me to learn Python 
+with passion rather than just following tutorials.
