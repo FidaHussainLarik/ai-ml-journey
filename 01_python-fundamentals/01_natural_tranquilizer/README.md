@@ -32,6 +32,11 @@ original and meaningful from it.
 * **If / Else Conditions:** Used `if ans == 'Yes' or ans == 'yes'` to check what the user typed and make decisions.
 * **Time Module:** Used `time.sleep(1)` to make the program wait for exactly 1 second during the countdowns.
 
+## ⏩ How to run this its code
+* Choose any IDE like VS code/Pycharm or Spider.
+* Download the file
+* Run the code as I already imported the required module ( a time module to count 4-7-8 breathing)
+
 ##  Things I Want to Improve Next
 * Make the code handle user inputs better (like if someone types with accidental spaces or mixed capital letters).
 * Break the code into separate functions (`def`) so it is cleaner and easier to read.
