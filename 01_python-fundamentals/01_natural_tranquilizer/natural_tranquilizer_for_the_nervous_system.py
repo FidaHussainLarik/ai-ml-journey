@@ -77,29 +77,3 @@ while ans == 'Yes' or ans == 'yes':
 print("==========================================================================================")
 print("\n\n")
 
-"""
-The 4-7-8 breathing technique (sometimes referred to casually as variations like 7-4, but the official rhythmic sequence is 4, 7, and 8).
-
-1.Enhale:
-4 Seconds.
-Close your mouth and Enhale quietly through your nose for a mental count of 4.
-
-2.Hold:
-7 Seconds.Hold your breath entirely for a count of 7. (This is the most important part, as it allows your blood to maximize its oxygen intake).
-
-3.Exhale:
-8 Seconds.Exhale completely through your mouth, making a "whoosh" sound, for a count of 8. Empty your lungs entirely.
-
-
-Why it Actually Works
-
-When you are stressed, your breathing becomes shallow and fast, which keeps your nervous system amped up. This technique works because:
-
-Forces Exhalation: The 8-second exhale forces your body to rid itself of stale air and activates the parasympathetic nervous system, which naturally lowers your heart rate and blood pressure.
-
-Focuses the Mind: Counting to 4, 7, and 8 gives your brain a simple, rhythmic task to focus on, immediately distracting you from whatever is causing the stress.
-
-"""
-
-
-
