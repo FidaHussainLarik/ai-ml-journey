@@ -63,4 +63,4 @@ If you are on a similar journey — let's connect. 🤝
 
 ---
 
-*Started: June 10, 2025 | Location: Pakistan 🇵🇰*
+*Started: June 10, 2026 | Location: Pakistan 🇵🇰*
