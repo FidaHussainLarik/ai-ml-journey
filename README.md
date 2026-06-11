@@ -10,14 +10,17 @@ This repository is my public journal. Every folder, every file, and every commit
 
 ## 🧭 My Roadmap
 
-I have built a structured **6-month learning roadmap** that takes me from Python fundamentals all the way to machine learning and deep learning. I am learning through a mix of **Coursera courses**, **YouTube tutorials**, and hands-on personal projects.
+I have built a structured **8-month learning roadmap** that takes me from Python fundamentals all the way to Python Backend & APIs and Generative AI & MLOps. I am learning through a mix of **Coursera courses**, **YouTube tutorials**, and hands-on personal projects.
 
 | Phase | Focus | Status |
 |---|---|---|
 | 01 | Python Fundamentals | 🔄 In Progress |
 | 02 | Data Science & Analysis | ⏳ Coming Soon |
-| 03 | Machine Learning | ⏳ Coming Soon |
-| 04 | Deep Learning | ⏳ Coming Soon |
+| 03 | Full-Stack Web Basics | ⏳ Coming Soon |
+| 04 | Machine Learning | ⏳ Coming Soon |
+| 05 | Deep Learning | ⏳ Coming Soon |
+| 06 | Python Backend & APIs | ⏳ Coming Soon |
+| 07 | Generative AI & MLOps | ⏳ Coming Soon |
 
 ---
 
@@ -28,11 +31,14 @@ ai-ml-journey/
 │
 ├── 01_python-fundamentals/    ← Where it all begins
 ├── 02_data-science/           ← Coming soon
-├── 03_machine-learning/       ← Coming soon
-└── 04_deep-learning/          ← Coming soon
+├── 03_fullstack-web-basics/   ← Coming soon
+├── 04_machine-learning/       ← Coming soon
+├── 05_deep-learning/          ← Coming soon
+├── 06_python-apis/            ← Coming soon
+└── 07_generative-ai-&-MLOps/  ← Coming soon
 ```
 
-Each folder contains small projects with their own README explaining what was built, what concepts were used, and what I learned.
+As I progress through each phase, I will fill these folders with hands-on projects. Each directory will feature its own dedicated README detailing what I built, the core concepts applied, and my key takeaways.
 
 ---
 
