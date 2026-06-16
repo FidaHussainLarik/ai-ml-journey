@@ -10,7 +10,7 @@ This repository is my public journal. Every folder, every file, and every commit
 
 ## 🧭 My Roadmap
 
-I have built a structured **8-month learning roadmap** that takes me from Python fundamentals all the way to Python Backend & APIs and Generative AI & MLOps. I am learning through a mix of **Coursera courses**, **YouTube tutorials**, and hands-on personal projects.
+I have built a structured **learning roadmap** that takes me from Python fundamentals all the way to Python Backend & APIs and Generative AI & MLOps. I am learning through a mix of **Coursera courses**, **YouTube tutorials**, and hands-on personal projects.
 
 | Phase | Focus | Status |
 |---|---|---|
