@@ -6,7 +6,7 @@ print("    This is my second mini-project called NATURAL TRANQUILIZER FOR THE Ne
 print("===========================================================================================")
 
 def healer():
-    print("\nEnhale for 4 seconds\n")
+    print("\nInhale for 4 seconds\n")
     for counter in range(4, 0, -1):  # Starts at 4, stops before 0, steps down by -1
         print(f"Inhaling 🧘 {counter}")
         time.sleep(1) # This will allow each next iteration to wait for one second.
@@ -29,13 +29,13 @@ print("\n\n")
 
 
 name = input("Enter you name: ").strip().lower()
-print(f"{name}, are you stressed? (Yes/NO): " ,end='')
+print(f"{name}, are you stressed? (yes/no): " ,end='')
 
 ans = input().strip().lower() # strip().lower() handles accidental spaces and any capitalization mix
 
 if ans == 'yes':
     print("Do not worry! here is the technique that will cool your Nervous system down 😄")
-    print("\nDo you want to start, the cooling the Nervous system donw, techniques (YES/NO): ",end='')
+    print("\nDo you want to start, the cooling the Nervous system donw, techniques (yes/no): ",end='')
     
     startTech = input().strip().lower()
 
@@ -44,7 +44,7 @@ if ans == 'yes':
         print("Here we go........")
         for m in range(5):
             time.sleep(1)
-            print("⌛",end=' ')
+            print("⌛")
     else:
         ans = 'no'
 else:
