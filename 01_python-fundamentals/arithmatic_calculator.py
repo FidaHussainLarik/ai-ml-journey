@@ -1,9 +1,29 @@
-print("==============================================================")
-print("__________________________Calculator__________________________")
+import sys 
 
-num1= int(input("Enter first number: "))
+# Helper function to create border. Border are helpfull in visualization of entire console output.
+def seprator():
+    return (58 * '=')
+
+# prints a borderline
+print(seprator())
+
+print("__________________________Calculator______________________\n")
+
+num1 = input("Enter first number: ")
 operator = input("Enter the opeartion you want to perfrom?: ")
-num2 = int(input("Enter second number: "))
+num2 = input("Enter second number: ")
+
+# Error handling
+
+try:
+    num1 = float(num1)
+    num2 = float(num2)
+except:
+    print('Enter valid numbers ⚠')
+    sys.exit() # Exit the program if invalid input is feed by users.
+
+
+
 
 
 def addition(para1,para2):
@@ -23,7 +43,6 @@ def division(para1,para2):
     print(f"Division of {para1} and {para2} : ",(divide_numbers))
 
 
-
 if operator == '+':
     addition(num1,num2)
 elif operator == '-':
@@ -35,7 +54,7 @@ elif operator == '/':
 else:
     print("Please enter a valid operator!")
         
-
-print("==============================================================")
+# prints a borderline
+print(seprator())
 
 
