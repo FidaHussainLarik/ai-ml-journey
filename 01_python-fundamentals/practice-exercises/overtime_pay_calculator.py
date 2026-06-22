@@ -21,7 +21,7 @@ def computepay(hrs, rate):
     pay = 0 # Defined to use in both branches
 
     if hrs <= 40:
-        pay = (hrs * rate)
+        pay = (hrs * rate) # counts the pay amount for normal hours per day 
         return pay
     elif hrs > 40:
         pay = (40 * rate) # hours upto 40 has the same rate per hour
