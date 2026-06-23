@@ -1,56 +1,40 @@
 # helper function for printing borders
 import time 
-def print_border():
-    print(60 * '=')
+def print_border(symbol):
+    print(60 * symbol)
 
 def search_engine(query):
-    print('Searching knowledge base...')
-    query_words = query.split()
+    print(60 * '-')
+    print("Evaluating Documents....")
+    print(60 * '-')
+        
+    if len(documents) == 0:
+        return 'No documents exist'
     
     for doc in documents:
         score = 0
         splitted_doc = doc.split()
 
-        for doc_word in splitted_doc:
-            
-            if query_words in doc:
+        for query_word in query:
+            if query_word in splitted_doc:
                 score += 1
-                print('Under construction')
+                
+        print(score)
+        break
+
+    return doc
+        
+    
 
         
+    
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-print_border()
+print_border('=')
 print('     MINI VECTOR SEARCH ENGINE       ')
-print_border()
-
-print('Loading knowledge base')
-for i in range(3):
-    print('⌛')
-    time.sleep(1)
-
+print_border('=')
 
 documents = [
     "Python is a high-level programming language commonly used in data science and artificial intelligence.",
@@ -86,23 +70,21 @@ documents = [
 greeting_messages = ['Good morning!','Good afternoon', 'Good night'] # Will add the fn which greet users according to the time they are using this RAG.
 
 
-print(f'Knowledge base loaded: {len(documents)} documents \n\n')
- 
-
-
-print("Enter your question: ")
+print("\nUser Query ")
 query = input('>')
-print()
 
-print(query)
-search_engine(query)
-
-
-    
-
-    
+query = query.split() # Converting string into a list of words for word by word comparision to documents
 
 
 
+matched_doc = search_engine(query)
 
-print_border()
+
+print_border('-')
+print('TOP MATCH')
+print_border('-')
+
+print(matched_doc)
+
+
+print_border('=')
