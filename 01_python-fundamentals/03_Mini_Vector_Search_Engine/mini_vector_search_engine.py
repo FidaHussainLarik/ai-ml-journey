@@ -32,23 +32,27 @@ documents = [
 
 # helper function for printing borders
 def print_border(symbol):
-    print(60 * symbol)
+    print(120 * symbol)
 
 def search_engine(query): # query is passed in form of a list of words (user's input words)
     
-    print(60 * '-')
+    print(120 * '-')
     print("Evaluating Documents....")
-    print(60 * '-')
+    print(120 * '-','\n\n')
     
     if len(documents) == 0:
         return 'No documents exist'
     
-    
     #highest_score keeps track of score for each doc and best_doc stores that doc
     best_doc = ''
     highest_score = 0
+    count = 0
     
     for doc in documents:
+       
+        print(f"Evaluating document number {count}")
+        count = count+1
+
         doc = doc.lower() # Convert all characters to lowercase
         splitted_doc = doc.split()  # convert each doc into a list of words to make comparison
         score = 0
@@ -59,6 +63,7 @@ def search_engine(query): # query is passed in form of a list of words (user's i
         if score > highest_score:
             highest_score = score  
             best_doc = doc
+
 
     return best_doc
 
@@ -71,15 +76,16 @@ print_border('=')
 greeting_messages = ['Good morning!','Good afternoon', 'Good night'] # Will add the fn which greet users according to the time they are using this RAG.
 
 # Taking user input
-print("\nUser Query ")
+print("\n\n\nUser Query ")
 query = input('>').lower() # Convert all characters to lowercase
 
 # Do not allow users to enter empty strings 
 while True:
-    if len(query) == 0:
+    if len(query.strip()) == 0:
         print("Query cannot be empty ❌")
         print("\nEnter your query again.")
         query = input('>').lower() # Convert all characters to lowercase
+
     else:
         query = query.split() # Converting string into a list of words for word by word comparision to documents
         matched_doc = search_engine(query) # calling the earch_engine() function to match documents
@@ -90,6 +96,8 @@ while True:
 
         # Printing the best doc in the data set 
         print(matched_doc)
-
+        print_border('=')
         break
-print_border('=')
+        
+        
+
