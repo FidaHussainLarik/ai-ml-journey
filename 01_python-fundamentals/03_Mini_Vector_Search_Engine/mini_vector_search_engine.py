@@ -1,45 +1,3 @@
-# helper function for printing borders
-import time 
-def print_border(symbol):
-    print(60 * symbol)
-
-def search_engine(query):
-    print(60 * '-')
-    print("Evaluating Documents....")
-    print(60 * '-')
-        
-    if len(documents) == 0:
-        return 'No documents exist'
-    
-    for doc in documents:
-        score = 0
-        splitted_doc = doc.split()
-
-        for query_word in query:
-            if query_word in splitted_doc:
-                score += 1
-                
-        print(score)
-        break
-
-    return doc
-        
-    
-
-        
-    
-
-
-
-<<<<<<< HEAD
-
-print_border('=')
-=======
-print_border()
->>>>>>> e1078212c9e7ede667eb0a775d9799e4df9cc57f
-print('     MINI VECTOR SEARCH ENGINE       ')
-print_border('=')
-
 documents = [
     "Python is a high-level programming language commonly used in data science and artificial intelligence.",
 
@@ -71,28 +29,67 @@ documents = [
 
     "Transformers are neural network architectures that power modern language models."
 ]
+
+# helper function for printing borders
+def print_border(symbol):
+    print(60 * symbol)
+
+def search_engine(query): # query is passed in form of a list of words (user's input words)
+    
+    print(60 * '-')
+    print("Evaluating Documents....")
+    print(60 * '-')
+    
+    if len(documents) == 0:
+        return 'No documents exist'
+    
+    
+    #highest_score keeps track of score for each doc and best_doc stores that doc
+    best_doc = ''
+    highest_score = 0
+    
+    for doc in documents:
+        doc = doc.lower() # Convert all characters to lowercase
+        splitted_doc = doc.split()  # convert each doc into a list of words to make comparison
+        score = 0
+
+        for query_word in query:
+            if query_word in splitted_doc:
+                score += 1
+        if score > highest_score:
+            highest_score = score  
+            best_doc = doc
+
+    return best_doc
+
+# Starting point of the project
+print_border('=')
+print('     MINI VECTOR SEARCH ENGINE       ')
+print_border('=')
+
+
 greeting_messages = ['Good morning!','Good afternoon', 'Good night'] # Will add the fn which greet users according to the time they are using this RAG.
 
-
+# Taking user input
 print("\nUser Query ")
-query = input('>')
+query = input('>').lower() # Convert all characters to lowercase
 
-query = query.split() # Converting string into a list of words for word by word comparision to documents
+# Do not allow users to enter empty strings 
+while True:
+    if len(query) == 0:
+        print("Query cannot be empty ❌")
+        print("\nEnter your query again.")
+        query = input('>').lower() # Convert all characters to lowercase
+    else:
+        query = query.split() # Converting string into a list of words for word by word comparision to documents
+        matched_doc = search_engine(query) # calling the earch_engine() function to match documents
 
+        print_border('-')
+        print('TOP MATCH')
+        print_border('-')
 
+        # Printing the best doc in the data set 
+        print(matched_doc)
 
-matched_doc = search_engine(query)
-
-<<<<<<< HEAD
-
-print_border('-')
-print('TOP MATCH')
-print_border('-')
-
-print(matched_doc)
-
-
+        break
 print_border('=')
-=======
-print_border('=')
->>>>>>> e1078212c9e7ede667eb0a775d9799e4df9cc57f
