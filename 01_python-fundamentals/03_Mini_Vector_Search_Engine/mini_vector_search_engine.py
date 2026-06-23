@@ -31,8 +31,12 @@ def search_engine(query):
 
 
 
+<<<<<<< HEAD
 
 print_border('=')
+=======
+print_border()
+>>>>>>> e1078212c9e7ede667eb0a775d9799e4df9cc57f
 print('     MINI VECTOR SEARCH ENGINE       ')
 print_border('=')
 
@@ -79,6 +83,7 @@ query = query.split() # Converting string into a list of words for word by word 
 
 matched_doc = search_engine(query)
 
+<<<<<<< HEAD
 
 print_border('-')
 print('TOP MATCH')
@@ -88,3 +93,6 @@ print(matched_doc)
 
 
 print_border('=')
+=======
+print_border()
+>>>>>>> e1078212c9e7ede667eb0a775d9799e4df9cc57f
