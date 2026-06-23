@@ -94,5 +94,5 @@ print(matched_doc)
 
 print_border('=')
 =======
-print_border()
+print_border('=')
 >>>>>>> e1078212c9e7ede667eb0a775d9799e4df9cc57f
