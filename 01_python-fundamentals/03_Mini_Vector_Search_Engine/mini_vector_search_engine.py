@@ -21,27 +21,6 @@ def search_engine(query):
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 print_border()
 print('     MINI VECTOR SEARCH ENGINE       ')
 print_border()
