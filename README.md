@@ -15,7 +15,7 @@ I have built a structured **learning roadmap** that takes me from Python fundame
 | Phase | Focus | Status |
 |---|---|---|
 | 01 | Python Fundamentals | 🔄 In Progress |
-| 02 | Data Science & Analysis | ⏳ Coming Soon |
+| 02 | Data Science & Analysis | 🔄 Coming Soon |
 | 03 | Full-Stack Web Basics | ⏳ Coming Soon |
 | 04 | Machine Learning | 🔄 In progress |
 | 05 | Deep Learning | ⏳ Coming Soon |
