@@ -15,7 +15,7 @@ I have built a structured **learning roadmap** that takes me from Python fundame
 | Phase | Focus | Status |
 |---|---|---|
 | 01 | Python Fundamentals | 🔄 In Progress |
-| 02 | Data Science & Analysis | ⏳ Coming Soon |
+| 02 | Data Science & Analysis | 🔄 In Progress |
 | 03 | Full-Stack Web Basics | ⏳ Coming Soon |
 | 04 | Machine Learning | 🔄 In progress |
 | 05 | Deep Learning | ⏳ Coming Soon |
@@ -48,6 +48,7 @@ As I progress through each phase, I will fill these folders with hands-on projec
 |---|---------|----------|--------|
 | 01 | Countdown Timer | For loops, time module | `01_python-fundamentals` |
 | 02 | Natural Tranquilizer (4-7-8 Breathing Simulator) | While loops, conditionals, user input, time module | `01_python-fundamentals` |
+| 03 | Mini Vector Search Engine | For and while loops, llists, functions  | `01_python-fundamentals` |
 
 ---
 
