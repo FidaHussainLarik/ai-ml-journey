@@ -40,6 +40,8 @@ def search_engine(query): # query is passed in form of a list of words (user's i
     print("Evaluating Documents....")
     print(120 * '-','\n\n')
     
+
+    
     if len(documents) == 0:
         return 'No documents exist'
     
