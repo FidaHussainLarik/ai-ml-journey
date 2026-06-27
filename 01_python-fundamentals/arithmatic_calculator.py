@@ -2,42 +2,45 @@ import sys
 
 # Helper function to create border. Border are helpfull in visualization of entire console output.
 def seprator():
-    return (58 * '=')
+    print(58 * '=')
 
 # prints a borderline
-print(seprator())
+seprator()
 
 print("__________________________Calculator______________________\n")
 
 
 
 def get_float_input(prompt):
-    num1 = input()
+    while True:
+        num = input()
+        try:
+            num1 = float(num)
+            return num
+        except ValueError:
+            print("Invalid input!")
+            continue
+
+def get_opeartor(prompt):
+    opeartor = input()
     try:
-        num1 = float(num1)
+        if get_opeartor in ['+','-','/','*']:
+            return opeartor
     except ValueError:
         print("Invalid input!")
 
 
-num1 = get_float_input('Enter number: ')
-operator = input("Enter the opeartion you want to perfrom?: ")
-num2 = input("Enter second number: ")
-
-# Error handling
-while True:
-    if operator not in ['+','-','/','*']:
-        operator = input("Enter valid opeartor: ")
-    try:
-        num1 = float(num1)
-        num2 = float(num2)
-        break
-    except:
-        print('Enter valid numbers ⚠')
-        continue
+num1 = get_float_input('Enter first number : ')
+operator = get_opeartor('Enter the operation you want to perform: ')
+num2 = get_float_input('Enter second number: ')
 
 
 
 
+def power_fn(base,exponent):
+    power = (base ** exponent)
+    print(f"{base} to the power {exponent} is {power}")
+    
 
 def addition(para1,para2):
     sum_numbers = para1+para2
@@ -68,6 +71,6 @@ else:
     print("Please enter a valid operator!")
         
 # prints a borderline
-print(seprator())
+seprator()
 
 
