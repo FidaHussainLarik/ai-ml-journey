@@ -39,36 +39,39 @@ num2 = get_float_input('Enter second number: ')
 
 def power_fn(base,exponent):
     power = (base ** exponent)
-    print(f"{base} to the power {exponent} is {power}")
-    
+    return power
+
 
 def addition(para1,para2):
     sum_numbers = para1+para2
-    print(f"Addition of {para1} and {para2} : ",(sum_numbers))
+    return sum_numbers
 
 def subtraction(para1,para2):
     sub_numbers = (para1 - para2)
-    print(f"Subtraction of {para1} and {para2} : ",(sub_numbers))
+    return sub_numbers
 
 def multiplication(para1,para2):
     multi_numbers = (para1 * para2)
-    print(f"Multiplication of {para1} and {para2} : ",(multi_numbers))
+    return multi_numbers
 
 def division(para1,para2):
-    divide_numbers = (para1 / para2)
-    print(f"Division of {para1} and {para2} : ",(divide_numbers))
+    division_numbers = (para1 / para2)
+    return division_numbers
 
 
 if operator == '+':
-    addition(num1,num2)
+    sum = addition(num1,num2)
+    print(f"Addition of {num1} and {num2} is: {sum}")
 elif operator == '-':
-    subtraction(num1,num2)
+    sub = subtraction(num1,num2)
+    print(f"Subtraction of {num1} and {num2} is: {sub}")
 elif operator == '*':
-    multiplication(num1,num2)
+    product = multiplication(num1,num2)
+    print(f"Product of {num1} and {num2} is: {product}")
 elif operator == '/':
-    division(num1,num2)
-else:
-    print("Please enter a valid operator!")
+    division = division(num1,num2)
+    print(f"Division of {num1} and {num2} is: {division}")
+
         
 # prints a borderline
 seprator()
