@@ -9,18 +9,31 @@ print(seprator())
 
 print("__________________________Calculator______________________\n")
 
-num1 = input("Enter first number: ")
+
+
+def get_float_input(prompt):
+    num1 = input()
+    try:
+        num1 = float(num1)
+    except ValueError:
+        print("Invalid input!")
+
+
+num1 = get_float_input('Enter number: ')
 operator = input("Enter the opeartion you want to perfrom?: ")
 num2 = input("Enter second number: ")
 
 # Error handling
-
-try:
-    num1 = float(num1)
-    num2 = float(num2)
-except:
-    print('Enter valid numbers ⚠')
-    sys.exit() # Exit the program if invalid input is feed by users.
+while True:
+    if operator not in ['+','-','/','*']:
+        operator = input("Enter valid opeartor: ")
+    try:
+        num1 = float(num1)
+        num2 = float(num2)
+        break
+    except:
+        print('Enter valid numbers ⚠')
+        continue
 
 
 
