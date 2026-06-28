@@ -1,8 +1,8 @@
 # Data Analysis with Python: NumPy & Pandas
 
 ## Project Overview
+I have completed the guided project on 'Data Analysis with Python: NumPy & Pandas'. This project focuses on analyzing data using Python with the help of **NumPy** and **Pandas**. It is designed to build the foundational skills needed for machine learning, where data manipulation and analysis are essential.
 
-This project focuses on analyzing data using Python with the help of **NumPy** and **Pandas**. It is designed to build the foundational skills needed for machine learning, where data manipulation and analysis are essential.
 
 ## What I Learned
 
