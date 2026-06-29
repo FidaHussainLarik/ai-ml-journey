@@ -34,7 +34,8 @@ documents = [
 def print_border(symbol):
     print(120 * symbol)
 
-def search_engine(query): # query is passed in form of a list of words (user's input words)
+# query is passed in form of a list of words (user's input words)
+def search_engine(query):  
     
     print(120 * '-')
     print("Evaluating Documents....")
@@ -65,7 +66,8 @@ def search_engine(query): # query is passed in form of a list of words (user's i
         if score > highest_score:
             highest_score = score  
             best_doc = doc
-
+        if highest_score == 0:
+            return "No matching documents found."
 
     return best_doc
 
