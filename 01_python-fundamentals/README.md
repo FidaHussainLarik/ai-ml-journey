@@ -24,4 +24,4 @@ Each `.py` file is standalone. Clone the repo, open the file in any IDE (VS Code
 
 ## What's Next
 
-Moving from these fundamentals into data science and API-focused projects (see the other folders in this repo) as I work toward AI/LLM Engineering.
+Moving from these fundamentals into data science and API-focused projects (see the other folders in this repo) as I work toward Full Stack AI Engineering.
